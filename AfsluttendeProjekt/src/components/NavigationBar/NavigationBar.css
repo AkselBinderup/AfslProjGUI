@@ -1,0 +1,30 @@
+.NavBarItems {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .NavBarItems ul {
+    display: flex;
+    list-style: none;
+    gap: 125px; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .NavBarItems a {
+    text-decoration: none;  
+    color: inherit;  
+    font-size: 18px;
+    transition: color 0.2s ease;
+  }
+  
+  .NavBarItems a:hover {
+    color: #866142; 
+  }
+  
