@@ -3,16 +3,16 @@
     padding: 0;
     margin: 0;
     height: 80px;
+    background-color: #f2f1ec;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: #866142 4px solid;
-    position: relative; 
+    border-bottom: #6d1e26 4px solid;
   }
   .MainTitle {
-    font-family: 'Monocraft Nerd Font', serif;
+    font-family: 'Helvetica', serif;
     font-size: 80px;
-    color: #866142;
+    color: black;
     font-weight: 400;
     text-align: center;
     line-height: 80px;
@@ -42,3 +42,7 @@
     
     object-fit: contain; 
   }
+
+.DefHref{
+  text-decoration: none;
+}

@@ -4,9 +4,10 @@
     margin: 0;
     height: 60px;
     display: flex;
+    background-color: #f2f1ec;
+
     align-items: center;
     justify-content: center;
-    position: relative;
   }
   
   .NavBarItems ul {

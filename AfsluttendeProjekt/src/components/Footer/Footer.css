@@ -1,0 +1,91 @@
+.FooterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #efeff0;  
+  color: black;  
+  padding: 50px 80px;
+  flex-wrap: wrap;
+  font-family: 'Poppins', Arial, sans-serif;
+  gap: 80px; 
+
+}
+
+.FooterLinks {
+  display: flex;
+  gap: 80px;
+}
+
+.FooterLinkLeftSection,
+.FooterLinkRightSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterLinkLeftSection h3,
+.FooterLinkRightSection h3 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: black;
+  letter-spacing: 0.5px;
+}
+
+.FooterLinkLeftSection a,
+.FooterLinkRightSection a {
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  margin: 4px 0;
+  font-size: 36px;
+  transition: opacity 0.2s;
+}
+
+.FooterLinkLeftSection a:hover,
+.FooterLinkRightSection a:hover {
+  opacity: 1;
+}
+
+.FooterRightSection {
+  max-width: 400px;
+}
+
+.FooterRightSection h2 {
+  font-size: 46px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.FooterRightSection p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.FooterRightSection .SmallText {
+  font-size: 12px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.EmailBox {
+  margin-top: 14px;
+}
+
+.EmailBox input {
+  width: 100%;
+  padding: 12px 14px;
+  background-color: #e9dfcf;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #4b3621;
+  outline: none;
+}
+
+.EmailBox input::placeholder {
+  color: black;
+}

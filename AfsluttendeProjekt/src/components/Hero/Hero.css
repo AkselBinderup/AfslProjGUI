@@ -1,0 +1,33 @@
+.HeroDiv {
+    height: 600px;
+    background-color: #b6343f;
+    display: flex;                
+    align-items: center;          
+    justify-content: flex-start;    
+    gap: 30px;                    
+    padding: 0 50px;
+}
+.HeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ; 
+    margin-left: 5%;
+    margin-top: -18%; 
+}
+.HeroText h1{
+    font-family: 'Helvetica', serif;
+    font-size: 60px;
+    color: white;
+}
+.HeroText p {
+    font-family: 'Poppins', serif;
+    font-size: 30px;
+    margin: 0;                   
+    padding: 0px 0;   
+    color: white;
+}
+.HeroDiv img {
+    max-height: 600px; 
+    max-width: 50%;    
+    object-fit: contain;        
+}

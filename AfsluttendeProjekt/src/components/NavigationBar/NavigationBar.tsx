@@ -1,4 +1,5 @@
-import './NavigationBar.css';
+import { Link } from "react-router-dom";
+import "./NavigationBar.css";
 
 export const NavigationBar = () => {
   return (
@@ -6,22 +7,19 @@ export const NavigationBar = () => {
       <nav className="NavBarItems Capitalize-First">
         <ul>
           <li>
-            <a href="#AllProducts">All products</a>
+            <Link to="/allproducts">All Products</Link>
           </li>
           <li>
-            <a href="#Jackets">Jackets</a>
+            <Link to="/accessories">Accessories</Link>
           </li>
           <li>
-            <a href="#Tops">Tops</a>
+            <Link to="/jackets">Jackets</Link>
           </li>
           <li>
-            <a href="#Pants">Pants</a>
+            <Link to="/pants">Pants</Link>
           </li>
           <li>
-            <a href="#Shoes">Shoes</a>
-          </li>
-          <li>
-            <a href="#Accessories">Accessories</a>
+            <Link to="/tops">Tops</Link>
           </li>
         </ul>
       </nav>

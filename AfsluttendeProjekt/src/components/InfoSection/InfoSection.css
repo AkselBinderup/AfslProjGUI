@@ -1,0 +1,41 @@
+.InfoSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f5ef;
+  overflow: hidden;
+}
+
+.InfoImageContainer{
+  display:block;
+  justify-content: start;
+  padding: 20px;
+}
+.InfoImageContainer img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+.InfoOverlay {
+  text-align: left;
+}
+
+.InfoOverlay h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.InfoOverlay p {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.InfoHighlight {
+  font-weight: 600;
+  font-size: 30px;
+  color: #b6343f;
+  margin-top: 15px;
+}
