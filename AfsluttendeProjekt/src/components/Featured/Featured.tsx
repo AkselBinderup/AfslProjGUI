@@ -24,6 +24,9 @@ export const FeaturedProducts: React.FC<FeaturedProductsProps> = ({
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
+
+  // https://stackoverflow.com/questions/69364075/how-to-async-fetch-data-in-useeffect?utm_source=chatgpt.com
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -48,7 +51,8 @@ export const FeaturedProducts: React.FC<FeaturedProductsProps> = ({
 
     fetchProducts();
   }, [rows, columns, category]);
-
+  
+  
   if (loading) return <p>Loading</p>;
 
   const gridStyle: React.CSSProperties = {
@@ -74,6 +78,8 @@ export const FeaturedProducts: React.FC<FeaturedProductsProps> = ({
             image={p.imageUrl}
             title={p.name}
             price={p.price.toString()}
+          
+
           />
         ))}
       </div>
